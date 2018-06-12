@@ -87,7 +87,7 @@ foreach ($domain as $v_domain)
             "type"     => $type,
             "name"     => $name,
             "content"  => $ip,
-            "ttl"      => 120,
+            "ttl"      => 120, // 1 为自动
             "priority" => 10,
             "proxied"  => false
         );
