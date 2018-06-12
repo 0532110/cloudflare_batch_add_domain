@@ -89,7 +89,7 @@ foreach ($domain as $v_domain)
             "content"  => $ip,
             "ttl"      => 120, // 1 为自动
             "priority" => 10,
-            "proxied"  => false
+            "proxied"  => false // true 为开启 dns and http proxy (cdn)
         );
 
         $post = json_encode($post);
